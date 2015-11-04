@@ -1,0 +1,1586 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fleck.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Fleck.Fakes.ShimFleckLog">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.FleckLog</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimFleckLog.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimFleckLog.#ctor(Fleck.FleckLog)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimFleckLog.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimFleckLog.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimFleckLog.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimFleckLog.Constructor">
+            <summary>Establecer el shim de FleckLog.FleckLog()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimFleckLog.DebugStringException">
+            <summary>Establecer el shim de FleckLog.Debug(String message, Exception ex)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimFleckLog.ErrorStringException">
+            <summary>Establecer el shim de FleckLog.Error(String message, Exception ex)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimFleckLog.InfoStringException">
+            <summary>Establecer el shim de FleckLog.Info(String message, Exception ex)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimFleckLog.StaticConstructor">
+            <summary>Establecer el shim de FleckLog.FleckLog()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimFleckLog.WarnStringException">
+            <summary>Establecer el shim de FleckLog.Warn(String message, Exception ex)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimFleckLog._cctorb__0LogLevelStringException">
+            <summary>Establecer el shim de FleckLog.&lt;.cctor&gt;b__0(LogLevel level, String message, Exception ex)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimFleckLog.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimHandlerFactory">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.HandlerFactory</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandlerFactory.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandlerFactory.#ctor(Fleck.HandlerFactory)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandlerFactory.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandlerFactory.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimHandlerFactory.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimHandlerFactory.BuildHandlerWebSocketHttpRequestActionOfStringAction">
+            <summary>Establecer el shim de HandlerFactory.BuildHandler(WebSocketHttpRequest request, Action`1&lt;String&gt; onMessage, Action onClose)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimHandlerFactory.Constructor">
+            <summary>Establecer el shim de HandlerFactory.HandlerFactory()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimHandlerFactory.GetVersionWebSocketHttpRequest">
+            <summary>Establecer el shim de HandlerFactory.GetVersion(WebSocketHttpRequest request)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimHandlerFactory.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimHandshakeException">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.HandshakeException</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandshakeException.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandshakeException.#ctor(Fleck.HandshakeException)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandshakeException.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandshakeException.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimHandshakeException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimHandshakeException.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimHandshakeException.Constructor">
+            <summary>Establecer el shim de HandshakeException.HandshakeException()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimHandshakeException.ConstructorString">
+            <summary>Establecer el shim de HandshakeException.HandshakeException(String message)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimHandshakeException.ConstructorStringException">
+            <summary>Establecer el shim de HandshakeException.HandshakeException(String message, Exception innerException)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimHandshakeException.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimIntExtensions">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.IntExtensions</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimIntExtensions.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimIntExtensions.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimIntExtensions.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimIntExtensions.ToBigEndianBytesOf1Int32``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Int32,System.Byte[]})">
+            <summary>Establecer el shim de IntExtensions.ToBigEndianBytes(Int32 source)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimIntExtensions.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimIntExtensions.ToLittleEndianIntByteArray">
+            <summary>Establecer el shim de IntExtensions.ToLittleEndianInt(Byte[] source)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimReadState">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.ReadState</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimReadState.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimReadState.#ctor(Fleck.ReadState)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimReadState.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimReadState.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.Clear">
+            <summary>Establecer el shim de ReadState.Clear()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.Constructor">
+            <summary>Establecer el shim de ReadState.ReadState()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.DataGet">
+            <summary>Establecer el shim de ReadState.get_Data()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.DataSetListOfByte">
+            <summary>Establecer el shim de ReadState.set_Data(List`1&lt;Byte&gt; value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.FrameTypeGet">
+            <summary>Establecer el shim de ReadState.get_FrameType()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.FrameTypeSetNullableOfFrameType">
+            <summary>Establecer el shim de ReadState.set_FrameType(Nullable`1&lt;FrameType&gt; value)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimReadState.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.AllInstances.Clear">
+            <summary>Establecer el shim de ReadState.Clear()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.AllInstances.DataGet">
+            <summary>Establecer el shim de ReadState.get_Data()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.AllInstances.DataSetListOfByte">
+            <summary>Establecer el shim de ReadState.set_Data(List`1&lt;Byte&gt; value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.AllInstances.FrameTypeGet">
+            <summary>Establecer el shim de ReadState.get_FrameType()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimReadState.AllInstances.FrameTypeSetNullableOfFrameType">
+            <summary>Establecer el shim de ReadState.set_FrameType(Nullable`1&lt;FrameType&gt; value)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimRequestParser">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.RequestParser</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimRequestParser.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimRequestParser.#ctor(Fleck.RequestParser)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimRequestParser.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimRequestParser.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimRequestParser.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimRequestParser.Constructor">
+            <summary>Establecer el shim de RequestParser.RequestParser()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimRequestParser.ParseByteArray">
+            <summary>Establecer el shim de RequestParser.Parse(Byte[] bytes)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimRequestParser.ParseByteArrayString">
+            <summary>Establecer el shim de RequestParser.Parse(Byte[] bytes, String scheme)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimRequestParser.StaticConstructor">
+            <summary>Establecer el shim de RequestParser.RequestParser()</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimRequestParser.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimSocketWrapper">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.SocketWrapper</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimSocketWrapper.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimSocketWrapper.#ctor(Fleck.SocketWrapper)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimSocketWrapper.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimSocketWrapper.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimSocketWrapper.Bind(Fleck.ISocket)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AcceptActionOfISocketActionOfException">
+            <summary>Establecer el shim de SocketWrapper.Accept(Action`1&lt;ISocket&gt; callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AuthenticateX509Certificate2ActionActionOfException">
+            <summary>Establecer el shim de SocketWrapper.Authenticate(X509Certificate2 certificate, Action callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.BindEndPoint">
+            <summary>Establecer el shim de SocketWrapper.Bind(EndPoint endPoint)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.Close">
+            <summary>Establecer el shim de SocketWrapper.Close()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.ConnectedGet">
+            <summary>Establecer el shim de SocketWrapper.get_Connected()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.ConstructorSocket">
+            <summary>Establecer el shim de SocketWrapper.SocketWrapper(Socket socket)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.Dispose">
+            <summary>Establecer el shim de SocketWrapper.Dispose()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.EndSendIAsyncResult">
+            <summary>Establecer el shim de SocketWrapper.EndSend(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.ListenInt32">
+            <summary>Establecer el shim de SocketWrapper.Listen(Int32 backlog)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.ReceiveByteArrayActionOfInt32ActionOfExceptionInt32">
+            <summary>Establecer el shim de SocketWrapper.Receive(Byte[] buffer, Action`1&lt;Int32&gt; callback, Action`1&lt;Exception&gt; error, Int32 offset)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.RemoteIpAddressGet">
+            <summary>Establecer el shim de SocketWrapper.get_RemoteIpAddress()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.SendByteArrayActionActionOfException">
+            <summary>Establecer el shim de SocketWrapper.Send(Byte[] buffer, Action callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.StreamGet">
+            <summary>Establecer el shim de SocketWrapper.get_Stream()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper._Acceptb__cIAsyncResult">
+            <summary>Establecer el shim de SocketWrapper.&lt;Accept&gt;b__c(IAsyncResult r)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimSocketWrapper.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.AcceptActionOfISocketActionOfException">
+            <summary>Establecer el shim de SocketWrapper.Accept(Action`1&lt;ISocket&gt; callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.AuthenticateX509Certificate2ActionActionOfException">
+            <summary>Establecer el shim de SocketWrapper.Authenticate(X509Certificate2 certificate, Action callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.BindEndPoint">
+            <summary>Establecer el shim de SocketWrapper.Bind(EndPoint endPoint)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.Close">
+            <summary>Establecer el shim de SocketWrapper.Close()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.ConnectedGet">
+            <summary>Establecer el shim de SocketWrapper.get_Connected()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.Dispose">
+            <summary>Establecer el shim de SocketWrapper.Dispose()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.EndSendIAsyncResult">
+            <summary>Establecer el shim de SocketWrapper.EndSend(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.ListenInt32">
+            <summary>Establecer el shim de SocketWrapper.Listen(Int32 backlog)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.ReceiveByteArrayActionOfInt32ActionOfExceptionInt32">
+            <summary>Establecer el shim de SocketWrapper.Receive(Byte[] buffer, Action`1&lt;Int32&gt; callback, Action`1&lt;Exception&gt; error, Int32 offset)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.RemoteIpAddressGet">
+            <summary>Establecer el shim de SocketWrapper.get_RemoteIpAddress()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.SendByteArrayActionActionOfException">
+            <summary>Establecer el shim de SocketWrapper.Send(Byte[] buffer, Action callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances.StreamGet">
+            <summary>Establecer el shim de SocketWrapper.get_Stream()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimSocketWrapper.AllInstances._Acceptb__cIAsyncResult">
+            <summary>Establecer el shim de SocketWrapper.&lt;Accept&gt;b__c(IAsyncResult r)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketConnection">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.WebSocketConnection</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnection.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnection.#ctor(Fleck.WebSocketConnection)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnection.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnection.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnection.Bind(Fleck.IWebSocketConnection)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.Close">
+            <summary>Establecer el shim de WebSocketConnection.Close()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.CloseInt32">
+            <summary>Establecer el shim de WebSocketConnection.Close(Int32 code)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.CloseSocket">
+            <summary>Establecer el shim de WebSocketConnection.CloseSocket()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.ConnectionInfoGet">
+            <summary>Establecer el shim de WebSocketConnection.get_ConnectionInfo()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.ConnectionInfoSetIWebSocketConnectionInfo">
+            <summary>Establecer el shim de WebSocketConnection.set_ConnectionInfo(IWebSocketConnectionInfo value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.ConstructorISocketFuncOfByteArrayWebSocketHttpRequestFuncOfWebSocketHttpRequestIHandler">
+            <summary>Establecer el shim de WebSocketConnection.WebSocketConnection(ISocket socket, Func`2&lt;Byte[],WebSocketHttpRequest&gt; parseRequest, Func`2&lt;WebSocketHttpRequest,IHandler&gt; handlerFactory)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.CreateHandlerIEnumerableOfByte">
+            <summary>Establecer el shim de WebSocketConnection.CreateHandler(IEnumerable`1&lt;Byte&gt; data)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.HandlerGet">
+            <summary>Establecer el shim de WebSocketConnection.get_Handler()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.HandlerSetIHandler">
+            <summary>Establecer el shim de WebSocketConnection.set_Handler(IHandler value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.OnCloseGet">
+            <summary>Establecer el shim de WebSocketConnection.get_OnClose()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.OnCloseSetAction">
+            <summary>Establecer el shim de WebSocketConnection.set_OnClose(Action value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.OnErrorGet">
+            <summary>Establecer el shim de WebSocketConnection.get_OnError()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.OnErrorSetActionOfException">
+            <summary>Establecer el shim de WebSocketConnection.set_OnError(Action`1&lt;Exception&gt; value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.OnMessageGet">
+            <summary>Establecer el shim de WebSocketConnection.get_OnMessage()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.OnMessageSetActionOfString">
+            <summary>Establecer el shim de WebSocketConnection.set_OnMessage(Action`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.OnOpenGet">
+            <summary>Establecer el shim de WebSocketConnection.get_OnOpen()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.OnOpenSetAction">
+            <summary>Establecer el shim de WebSocketConnection.set_OnOpen(Action value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.ReadListOfByteByteArray">
+            <summary>Establecer el shim de WebSocketConnection.Read(List`1&lt;Byte&gt; data, Byte[] buffer)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.SendBytesByteArrayAction">
+            <summary>Establecer el shim de WebSocketConnection.SendBytes(Byte[] bytes, Action callback)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.SendString">
+            <summary>Establecer el shim de WebSocketConnection.Send(String message)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.SocketGet">
+            <summary>Establecer el shim de WebSocketConnection.get_Socket()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.SocketSetISocket">
+            <summary>Establecer el shim de WebSocketConnection.set_Socket(ISocket value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.StartReceiving">
+            <summary>Establecer el shim de WebSocketConnection.StartReceiving()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection._Readb__9Exception">
+            <summary>Establecer el shim de WebSocketConnection.&lt;Read&gt;b__9(Exception e)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection._SendBytesb__dException">
+            <summary>Establecer el shim de WebSocketConnection.&lt;SendBytes&gt;b__d(Exception e)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection._ctorb__0">
+            <summary>Establecer el shim de WebSocketConnection.&lt;.ctor&gt;b__0()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection._ctorb__1">
+            <summary>Establecer el shim de WebSocketConnection.&lt;.ctor&gt;b__1()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection._ctorb__2String">
+            <summary>Establecer el shim de WebSocketConnection.&lt;.ctor&gt;b__2(String x)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection._ctorb__3Exception">
+            <summary>Establecer el shim de WebSocketConnection.&lt;.ctor&gt;b__3(Exception x)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketConnection.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.Close">
+            <summary>Establecer el shim de WebSocketConnection.Close()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.CloseInt32">
+            <summary>Establecer el shim de WebSocketConnection.Close(Int32 code)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.CloseSocket">
+            <summary>Establecer el shim de WebSocketConnection.CloseSocket()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.ConnectionInfoGet">
+            <summary>Establecer el shim de WebSocketConnection.get_ConnectionInfo()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.ConnectionInfoSetIWebSocketConnectionInfo">
+            <summary>Establecer el shim de WebSocketConnection.set_ConnectionInfo(IWebSocketConnectionInfo value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.CreateHandlerIEnumerableOfByte">
+            <summary>Establecer el shim de WebSocketConnection.CreateHandler(IEnumerable`1&lt;Byte&gt; data)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.HandlerGet">
+            <summary>Establecer el shim de WebSocketConnection.get_Handler()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.HandlerSetIHandler">
+            <summary>Establecer el shim de WebSocketConnection.set_Handler(IHandler value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.OnCloseGet">
+            <summary>Establecer el shim de WebSocketConnection.get_OnClose()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.OnCloseSetAction">
+            <summary>Establecer el shim de WebSocketConnection.set_OnClose(Action value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.OnErrorGet">
+            <summary>Establecer el shim de WebSocketConnection.get_OnError()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.OnErrorSetActionOfException">
+            <summary>Establecer el shim de WebSocketConnection.set_OnError(Action`1&lt;Exception&gt; value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.OnMessageGet">
+            <summary>Establecer el shim de WebSocketConnection.get_OnMessage()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.OnMessageSetActionOfString">
+            <summary>Establecer el shim de WebSocketConnection.set_OnMessage(Action`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.OnOpenGet">
+            <summary>Establecer el shim de WebSocketConnection.get_OnOpen()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.OnOpenSetAction">
+            <summary>Establecer el shim de WebSocketConnection.set_OnOpen(Action value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.ReadListOfByteByteArray">
+            <summary>Establecer el shim de WebSocketConnection.Read(List`1&lt;Byte&gt; data, Byte[] buffer)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.SendBytesByteArrayAction">
+            <summary>Establecer el shim de WebSocketConnection.SendBytes(Byte[] bytes, Action callback)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.SendString">
+            <summary>Establecer el shim de WebSocketConnection.Send(String message)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.SocketGet">
+            <summary>Establecer el shim de WebSocketConnection.get_Socket()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.SocketSetISocket">
+            <summary>Establecer el shim de WebSocketConnection.set_Socket(ISocket value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances.StartReceiving">
+            <summary>Establecer el shim de WebSocketConnection.StartReceiving()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances._Readb__9Exception">
+            <summary>Establecer el shim de WebSocketConnection.&lt;Read&gt;b__9(Exception e)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnection.AllInstances._SendBytesb__dException">
+            <summary>Establecer el shim de WebSocketConnection.&lt;SendBytes&gt;b__d(Exception e)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketConnectionInfo">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.WebSocketConnectionInfo</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnectionInfo.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnectionInfo.#ctor(Fleck.WebSocketConnectionInfo)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnectionInfo.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnectionInfo.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketConnectionInfo.Bind(Fleck.IWebSocketConnectionInfo)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.ClientIpAddressGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_ClientIpAddress()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.ClientIpAddressSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_ClientIpAddress(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.Constructor">
+            <summary>Establecer el shim de WebSocketConnectionInfo.WebSocketConnectionInfo()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.CookiesGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_Cookies()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.CookiesSetIDictionaryOfStringString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_Cookies(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.CreateWebSocketHttpRequestString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.Create(WebSocketHttpRequest request, String clientIp)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.HostGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_Host()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.HostSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_Host(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.OriginGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_Origin()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.OriginSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_Origin(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.PathGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_Path()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.PathSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_Path(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.StaticConstructor">
+            <summary>Establecer el shim de WebSocketConnectionInfo.WebSocketConnectionInfo()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.SubProtocolGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_SubProtocol()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.SubProtocolSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_SubProtocol(String value)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.ClientIpAddressGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_ClientIpAddress()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.ClientIpAddressSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_ClientIpAddress(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.CookiesGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_Cookies()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.CookiesSetIDictionaryOfStringString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_Cookies(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.HostGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_Host()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.HostSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_Host(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.OriginGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_Origin()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.OriginSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_Origin(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.PathGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_Path()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.PathSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_Path(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.SubProtocolGet">
+            <summary>Establecer el shim de WebSocketConnectionInfo.get_SubProtocol()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketConnectionInfo.AllInstances.SubProtocolSetString">
+            <summary>Establecer el shim de WebSocketConnectionInfo.set_SubProtocol(String value)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketException">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.WebSocketException</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketException.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketException.#ctor(Fleck.WebSocketException)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketException.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketException.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketException.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketException.Constructor">
+            <summary>Establecer el shim de WebSocketException.WebSocketException()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketException.ConstructorString">
+            <summary>Establecer el shim de WebSocketException.WebSocketException(String message)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketException.ConstructorStringException">
+            <summary>Establecer el shim de WebSocketException.WebSocketException(String message, Exception innerException)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketException.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketHttpRequest">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.WebSocketHttpRequest</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketHttpRequest.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketHttpRequest.#ctor(Fleck.WebSocketHttpRequest)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketHttpRequest.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketHttpRequest.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.BodyGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Body()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.BodySetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Body(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.BytesGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Bytes()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.BytesSetByteArray">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Bytes(Byte[] value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.Constructor">
+            <summary>Establecer el shim de WebSocketHttpRequest.WebSocketHttpRequest()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.HeadersGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Headers()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.ItemGetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Item(String name)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.MethodGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Method()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.MethodSetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Method(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.PathGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Path()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.PathSetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Path(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.SchemeGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Scheme()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.SchemeSetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Scheme(String value)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.BodyGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Body()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.BodySetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Body(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.BytesGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Bytes()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.BytesSetByteArray">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Bytes(Byte[] value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.HeadersGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Headers()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.ItemGetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Item(String name)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.MethodGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Method()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.MethodSetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Method(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.PathGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Path()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.PathSetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Path(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.SchemeGet">
+            <summary>Establecer el shim de WebSocketHttpRequest.get_Scheme()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketHttpRequest.AllInstances.SchemeSetString">
+            <summary>Establecer el shim de WebSocketHttpRequest.set_Scheme(String value)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketServer">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.WebSocketServer</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketServer.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketServer.#ctor(Fleck.WebSocketServer)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketServer.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketServer.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketServer.Bind(Fleck.IWebSocketServer)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketServer.Bind(System.IDisposable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.CertificateGet">
+            <summary>Establecer el shim de WebSocketServer.get_Certificate()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.CertificateSetString">
+            <summary>Establecer el shim de WebSocketServer.set_Certificate(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.ConstructorInt32String">
+            <summary>Establecer el shim de WebSocketServer.WebSocketServer(Int32 port, String location)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.ConstructorString">
+            <summary>Establecer el shim de WebSocketServer.WebSocketServer(String location)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.Dispose">
+            <summary>Establecer el shim de WebSocketServer.Dispose()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.IsSecureGet">
+            <summary>Establecer el shim de WebSocketServer.get_IsSecure()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.ListenForClients">
+            <summary>Establecer el shim de WebSocketServer.ListenForClients()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.ListenerSocketGet">
+            <summary>Establecer el shim de WebSocketServer.get_ListenerSocket()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.ListenerSocketSetISocket">
+            <summary>Establecer el shim de WebSocketServer.set_ListenerSocket(ISocket value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.LocationGet">
+            <summary>Establecer el shim de WebSocketServer.get_Location()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.LocationSetString">
+            <summary>Establecer el shim de WebSocketServer.set_Location(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.OnClientConnectISocket">
+            <summary>Establecer el shim de WebSocketServer.OnClientConnect(ISocket clientSocket)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.PortGet">
+            <summary>Establecer el shim de WebSocketServer.get_Port()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.PortSetInt32">
+            <summary>Establecer el shim de WebSocketServer.set_Port(Int32 value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.StartActionOfIWebSocketConnection">
+            <summary>Establecer el shim de WebSocketServer.Start(Action`1&lt;IWebSocketConnection&gt; config)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer._ListenForClientsb__0Exception">
+            <summary>Establecer el shim de WebSocketServer.&lt;ListenForClients&gt;b__0(Exception e)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer._OnClientConnectb__2ByteArray">
+            <summary>Establecer el shim de WebSocketServer.&lt;OnClientConnect&gt;b__2(Byte[] bytes)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer._OnClientConnectb__5Exception">
+            <summary>Establecer el shim de WebSocketServer.&lt;OnClientConnect&gt;b__5(Exception e)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketServer.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.CertificateGet">
+            <summary>Establecer el shim de WebSocketServer.get_Certificate()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.CertificateSetString">
+            <summary>Establecer el shim de WebSocketServer.set_Certificate(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.Dispose">
+            <summary>Establecer el shim de WebSocketServer.Dispose()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.IsSecureGet">
+            <summary>Establecer el shim de WebSocketServer.get_IsSecure()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.ListenForClients">
+            <summary>Establecer el shim de WebSocketServer.ListenForClients()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.ListenerSocketGet">
+            <summary>Establecer el shim de WebSocketServer.get_ListenerSocket()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.ListenerSocketSetISocket">
+            <summary>Establecer el shim de WebSocketServer.set_ListenerSocket(ISocket value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.LocationGet">
+            <summary>Establecer el shim de WebSocketServer.get_Location()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.LocationSetString">
+            <summary>Establecer el shim de WebSocketServer.set_Location(String value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.OnClientConnectISocket">
+            <summary>Establecer el shim de WebSocketServer.OnClientConnect(ISocket clientSocket)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.PortGet">
+            <summary>Establecer el shim de WebSocketServer.get_Port()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.PortSetInt32">
+            <summary>Establecer el shim de WebSocketServer.set_Port(Int32 value)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances.StartActionOfIWebSocketConnection">
+            <summary>Establecer el shim de WebSocketServer.Start(Action`1&lt;IWebSocketConnection&gt; config)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketServer.AllInstances._OnClientConnectb__2ByteArray">
+            <summary>Establecer el shim de WebSocketServer.&lt;OnClientConnect&gt;b__2(Byte[] bytes)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.ShimWebSocketStatusCodes">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.WebSocketStatusCodes</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketStatusCodes.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketStatusCodes.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Fakes.ShimWebSocketStatusCodes.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Fakes.ShimWebSocketStatusCodes.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubFleckLog">
+            <summary>Tipo stub de Fleck.FleckLog</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubFleckLog.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubFleckLog.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubFleckLog</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubFleckLog.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubFleckLog.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubFleckLog.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubHandlerFactory">
+            <summary>Tipo stub de Fleck.HandlerFactory</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandlerFactory.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandlerFactory.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubHandlerFactory</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandlerFactory.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandlerFactory.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandlerFactory.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubHandshakeException">
+            <summary>Tipo stub de Fleck.HandshakeException</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.#ctor(System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.#ctor(System.String,System.Exception)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.AttachBackingFieldToHelpLink">
+            <summary>Asocia delegados para emular StubHandshakeException.HelpLink como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.AttachBackingFieldToSource">
+            <summary>Asocia delegados para emular StubHandshakeException.Source como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.DataGet">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.GetBaseException">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.GetBaseException01">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.HelpLinkGet">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.HelpLinkSetString">
+            <summary>Establecer el stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubHandshakeException</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.MessageGet">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.SourceGet">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.SourceSetString">
+            <summary>Establecer el stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.StackTraceGet">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubHandshakeException.ToString">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubHandshakeException.ToString01">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandshakeException.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandshakeException.Data">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandshakeException.HelpLink">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandshakeException.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandshakeException.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandshakeException.Message">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandshakeException.Source">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubHandshakeException.StackTrace">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubIHandler">
+            <summary>Tipo stub de Fleck.IHandler</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIHandler.#ctor">
+            <summary>Inicializa una nueva instancia de type StubIHandler</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIHandler.CreateHandshake">
+            <summary>Establecer el stub de IHandler.CreateHandshake()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIHandler.f::Fleck#IHandler#CreateHandshake">
+            <summary>Establecer el stub de IHandler.CreateHandshake()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIHandler.f::Fleck#IHandler#FrameClose(System.Int32)">
+            <summary>Establecer el stub de IHandler.FrameClose(Int32 code)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIHandler.f::Fleck#IHandler#FrameText(System.String)">
+            <summary>Establecer el stub de IHandler.FrameText(String text)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIHandler.f::Fleck#IHandler#Receive(System.Collections.Generic.IEnumerable{System.Byte})">
+            <summary>Establecer el stub de IHandler.Receive(IEnumerable`1&lt;Byte&gt; data)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIHandler.FrameCloseInt32">
+            <summary>Establecer el stub de IHandler.FrameClose(Int32 code)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIHandler.FrameTextString">
+            <summary>Establecer el stub de IHandler.FrameText(String text)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIHandler.ReceiveIEnumerableOfByte">
+            <summary>Establecer el stub de IHandler.Receive(IEnumerable`1&lt;Byte&gt; data)</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubISocket">
+            <summary>Tipo stub de Fleck.ISocket</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.#ctor">
+            <summary>Inicializa una nueva instancia de type StubISocket</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.AcceptActionOfISocketActionOfException">
+            <summary>Establecer el stub de ISocket.Accept(Action`1&lt;ISocket&gt; callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.AuthenticateX509Certificate2ActionActionOfException">
+            <summary>Establecer el stub de ISocket.Authenticate(X509Certificate2 certificate, Action callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.BindEndPoint">
+            <summary>Establecer el stub de ISocket.Bind(EndPoint ipLocal)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.Close">
+            <summary>Establecer el stub de ISocket.Close()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.ConnectedGet">
+            <summary>Establecer el stub de ISocket.get_Connected()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.Dispose">
+            <summary>Establecer el stub de ISocket.Dispose()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Accept(System.Action{Fleck.ISocket},System.Action{System.Exception})">
+            <summary>Establecer el stub de ISocket.Accept(Action`1&lt;ISocket&gt; callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Authenticate(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Action,System.Action{System.Exception})">
+            <summary>Establecer el stub de ISocket.Authenticate(X509Certificate2 certificate, Action callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Bind(System.Net.EndPoint)">
+            <summary>Establecer el stub de ISocket.Bind(EndPoint ipLocal)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Close">
+            <summary>Establecer el stub de ISocket.Close()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Dispose">
+            <summary>Establecer el stub de ISocket.Dispose()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Listen(System.Int32)">
+            <summary>Establecer el stub de ISocket.Listen(Int32 backlog)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Receive(System.Byte[],System.Action{System.Int32},System.Action{System.Exception},System.Int32)">
+            <summary>Establecer el stub de ISocket.Receive(Byte[] buffer, Action`1&lt;Int32&gt; callback, Action`1&lt;Exception&gt; error, Int32 offset)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Send(System.Byte[],System.Action,System.Action{System.Exception})">
+            <summary>Establecer el stub de ISocket.Send(Byte[] buffer, Action callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.ListenInt32">
+            <summary>Establecer el stub de ISocket.Listen(Int32 backlog)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.ReceiveByteArrayActionOfInt32ActionOfExceptionInt32">
+            <summary>Establecer el stub de ISocket.Receive(Byte[] buffer, Action`1&lt;Int32&gt; callback, Action`1&lt;Exception&gt; error, Int32 offset)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.RemoteIpAddressGet">
+            <summary>Establecer el stub de ISocket.get_RemoteIpAddress()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.SendByteArrayActionActionOfException">
+            <summary>Establecer el stub de ISocket.Send(Byte[] buffer, Action callback, Action`1&lt;Exception&gt; error)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubISocket.StreamGet">
+            <summary>Establecer el stub de ISocket.get_Stream()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Connected">
+            <summary>Establecer el stub de ISocket.get_Connected()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubISocket.f::Fleck#ISocket#RemoteIpAddress">
+            <summary>Establecer el stub de ISocket.get_RemoteIpAddress()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubISocket.f::Fleck#ISocket#Stream">
+            <summary>Establecer el stub de ISocket.get_Stream()</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubIWebSocketConnection">
+            <summary>Tipo stub de Fleck.IWebSocketConnection</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketConnection.#ctor">
+            <summary>Inicializa una nueva instancia de type StubIWebSocketConnection</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketConnection.AttachBackingFieldToOnClose">
+            <summary>Asocia delegados para emular StubIWebSocketConnection.OnClose como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketConnection.AttachBackingFieldToOnError">
+            <summary>Asocia delegados para emular StubIWebSocketConnection.OnError como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketConnection.AttachBackingFieldToOnMessage">
+            <summary>Asocia delegados para emular StubIWebSocketConnection.OnMessage como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketConnection.AttachBackingFieldToOnOpen">
+            <summary>Asocia delegados para emular StubIWebSocketConnection.OnOpen como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.Close">
+            <summary>Establecer el stub de IWebSocketConnection.Close()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.ConnectionInfoGet">
+            <summary>Establecer el stub de IWebSocketConnection.get_ConnectionInfo()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketConnection.f::Fleck#IWebSocketConnection#Close">
+            <summary>Establecer el stub de IWebSocketConnection.Close()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketConnection.f::Fleck#IWebSocketConnection#Send(System.String)">
+            <summary>Establecer el stub de IWebSocketConnection.Send(String message)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.OnCloseGet">
+            <summary>Establecer el stub de IWebSocketConnection.get_OnClose()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.OnCloseSetAction">
+            <summary>Establecer el stub de IWebSocketConnection.set_OnClose(Action value)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.OnErrorGet">
+            <summary>Establecer el stub de IWebSocketConnection.get_OnError()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.OnErrorSetActionOfException">
+            <summary>Establecer el stub de IWebSocketConnection.set_OnError(Action`1&lt;Exception&gt; value)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.OnMessageGet">
+            <summary>Establecer el stub de IWebSocketConnection.get_OnMessage()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.OnMessageSetActionOfString">
+            <summary>Establecer el stub de IWebSocketConnection.set_OnMessage(Action`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.OnOpenGet">
+            <summary>Establecer el stub de IWebSocketConnection.get_OnOpen()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.OnOpenSetAction">
+            <summary>Establecer el stub de IWebSocketConnection.set_OnOpen(Action value)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnection.SendString">
+            <summary>Establecer el stub de IWebSocketConnection.Send(String message)</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnection.f::Fleck#IWebSocketConnection#ConnectionInfo">
+            <summary>Establecer el stub de IWebSocketConnection.get_ConnectionInfo()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnection.f::Fleck#IWebSocketConnection#OnClose">
+            <summary>Establecer el stub de IWebSocketConnection.get_OnClose()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnection.f::Fleck#IWebSocketConnection#OnError">
+            <summary>Establecer el stub de IWebSocketConnection.get_OnError()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnection.f::Fleck#IWebSocketConnection#OnMessage">
+            <summary>Establecer el stub de IWebSocketConnection.get_OnMessage()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnection.f::Fleck#IWebSocketConnection#OnOpen">
+            <summary>Establecer el stub de IWebSocketConnection.get_OnOpen()</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubIWebSocketConnectionInfo">
+            <summary>Tipo stub de Fleck.IWebSocketConnectionInfo</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketConnectionInfo.#ctor">
+            <summary>Inicializa una nueva instancia de type StubIWebSocketConnectionInfo</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnectionInfo.ClientIpAddressGet">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_ClientIpAddress()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnectionInfo.CookiesGet">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_Cookies()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnectionInfo.HostGet">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_Host()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnectionInfo.OriginGet">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_Origin()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnectionInfo.PathGet">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_Path()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketConnectionInfo.SubProtocolGet">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_SubProtocol()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnectionInfo.f::Fleck#IWebSocketConnectionInfo#ClientIpAddress">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_ClientIpAddress()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnectionInfo.f::Fleck#IWebSocketConnectionInfo#Cookies">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_Cookies()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnectionInfo.f::Fleck#IWebSocketConnectionInfo#Host">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_Host()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnectionInfo.f::Fleck#IWebSocketConnectionInfo#Origin">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_Origin()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnectionInfo.f::Fleck#IWebSocketConnectionInfo#Path">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_Path()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubIWebSocketConnectionInfo.f::Fleck#IWebSocketConnectionInfo#SubProtocol">
+            <summary>Establecer el stub de IWebSocketConnectionInfo.get_SubProtocol()</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubIWebSocketServer">
+            <summary>Tipo stub de Fleck.IWebSocketServer</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketServer.#ctor">
+            <summary>Inicializa una nueva instancia de type StubIWebSocketServer</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketServer.Dispose">
+            <summary>Establecer el stub de IDisposable.Dispose()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketServer.f::Fleck#IWebSocketServer#Start(System.Action{Fleck.IWebSocketConnection})">
+            <summary>Establecer el stub de IWebSocketServer.Start(Action`1&lt;IWebSocketConnection&gt; config)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubIWebSocketServer.StartActionOfIWebSocketConnection">
+            <summary>Establecer el stub de IWebSocketServer.Start(Action`1&lt;IWebSocketConnection&gt; config)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubIWebSocketServer.global::System#IDisposable#Dispose">
+            <summary>Establecer el stub de IDisposable.Dispose()</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubReadState">
+            <summary>Tipo stub de Fleck.ReadState</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubReadState.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubReadState.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubReadState</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubReadState.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubReadState.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubReadState.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubRequestParser">
+            <summary>Tipo stub de Fleck.RequestParser</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubRequestParser.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubRequestParser.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubRequestParser</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubRequestParser.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubRequestParser.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubRequestParser.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubSocketWrapper">
+            <summary>Tipo stub de Fleck.SocketWrapper</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubSocketWrapper.#ctor(System.Net.Sockets.Socket)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubSocketWrapper.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubSocketWrapper</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubSocketWrapper.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubSocketWrapper.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubSocketWrapper.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubWebSocketConnection">
+            <summary>Tipo stub de Fleck.WebSocketConnection</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketConnection.#ctor(Fleck.ISocket,System.Func{System.Byte[],Fleck.WebSocketHttpRequest},System.Func{Fleck.WebSocketHttpRequest,Fleck.IHandler})">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketConnection.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubWebSocketConnection</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketConnection.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketConnection.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketConnection.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubWebSocketException">
+            <summary>Tipo stub de Fleck.WebSocketException</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.#ctor(System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.#ctor(System.String,System.Exception)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.AttachBackingFieldToHelpLink">
+            <summary>Asocia delegados para emular StubWebSocketException.HelpLink como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.AttachBackingFieldToSource">
+            <summary>Asocia delegados para emular StubWebSocketException.Source como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.DataGet">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.GetBaseException">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.GetBaseException01">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.HelpLinkGet">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.HelpLinkSetString">
+            <summary>Establecer el stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubWebSocketException</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.MessageGet">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.SourceGet">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.SourceSetString">
+            <summary>Establecer el stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.StackTraceGet">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketException.ToString">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Fleck.Fakes.StubWebSocketException.ToString01">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketException.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketException.Data">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketException.HelpLink">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketException.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketException.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketException.Message">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketException.Source">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketException.StackTrace">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubWebSocketHttpRequest">
+            <summary>Tipo stub de Fleck.WebSocketHttpRequest</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketHttpRequest.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketHttpRequest.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubWebSocketHttpRequest</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketHttpRequest.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketHttpRequest.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketHttpRequest.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Fleck.Fakes.StubWebSocketServer">
+            <summary>Tipo stub de Fleck.WebSocketServer</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketServer.#ctor(System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketServer.#ctor(System.Int32,System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Fakes.StubWebSocketServer.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubWebSocketServer</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketServer.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketServer.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Fakes.StubWebSocketServer.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Fleck.Handlers.Fakes.ShimComposableHandler">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.Handlers.ComposableHandler</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimComposableHandler.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimComposableHandler.#ctor(Fleck.Handlers.ComposableHandler)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimComposableHandler.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimComposableHandler.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimComposableHandler.Bind(Fleck.IHandler)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.Constructor">
+            <summary>Establecer el shim de ComposableHandler.ComposableHandler()</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.CreateHandshake">
+            <summary>Establecer el shim de ComposableHandler.CreateHandshake()</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.FrameCloseInt32">
+            <summary>Establecer el shim de ComposableHandler.FrameClose(Int32 code)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.FrameTextString">
+            <summary>Establecer el shim de ComposableHandler.FrameText(String text)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.ReceiveIEnumerableOfByte">
+            <summary>Establecer el shim de ComposableHandler.Receive(IEnumerable`1&lt;Byte&gt; data)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler._ctorb__0">
+            <summary>Establecer el shim de ComposableHandler.&lt;.ctor&gt;b__0()</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler._ctorb__1String">
+            <summary>Establecer el shim de ComposableHandler.&lt;.ctor&gt;b__1(String x)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler._ctorb__2ListOfByte">
+            <summary>Establecer el shim de ComposableHandler.&lt;.ctor&gt;b__2(List`1&lt;Byte&gt; )</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler._ctorb__3Int32">
+            <summary>Establecer el shim de ComposableHandler.&lt;.ctor&gt;b__3(Int32 i)</summary>
+        </member>
+        <member name="T:Fleck.Handlers.Fakes.ShimComposableHandler.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.AllInstances.CreateHandshake">
+            <summary>Establecer el shim de ComposableHandler.CreateHandshake()</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.AllInstances.FrameCloseInt32">
+            <summary>Establecer el shim de ComposableHandler.FrameClose(Int32 code)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.AllInstances.FrameTextString">
+            <summary>Establecer el shim de ComposableHandler.FrameText(String text)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimComposableHandler.AllInstances.ReceiveIEnumerableOfByte">
+            <summary>Establecer el shim de ComposableHandler.Receive(IEnumerable`1&lt;Byte&gt; data)</summary>
+        </member>
+        <member name="T:Fleck.Handlers.Fakes.ShimDraft76Handler">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.Handlers.Draft76Handler</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimDraft76Handler.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimDraft76Handler.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimDraft76Handler.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimDraft76Handler.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimDraft76Handler.CalculateAnswerBytesStringStringArraySegmentOfByte">
+            <summary>Establecer el shim de Draft76Handler.CalculateAnswerBytes(String key1, String key2, ArraySegment`1&lt;Byte&gt; challenge)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimDraft76Handler.CreateWebSocketHttpRequestActionOfString">
+            <summary>Establecer el shim de Draft76Handler.Create(WebSocketHttpRequest request, Action`1&lt;String&gt; onMessage)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimDraft76Handler.FrameTextString">
+            <summary>Establecer el shim de Draft76Handler.FrameText(String data)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimDraft76Handler.HandshakeWebSocketHttpRequest">
+            <summary>Establecer el shim de Draft76Handler.Handshake(WebSocketHttpRequest request)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimDraft76Handler.ParseKeyString">
+            <summary>Establecer el shim de Draft76Handler.ParseKey(String key)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimDraft76Handler.ReceiveDataActionOfStringListOfByte">
+            <summary>Establecer el shim de Draft76Handler.ReceiveData(Action`1&lt;String&gt; onMessage, List`1&lt;Byte&gt; data)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimDraft76Handler._ParseKeyb__5Char">
+            <summary>Establecer el shim de Draft76Handler.&lt;ParseKey&gt;b__5(Char x)</summary>
+        </member>
+        <member name="T:Fleck.Handlers.Fakes.ShimHybi13Handler">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Fleck.Handlers.Hybi13Handler</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimHybi13Handler.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimHybi13Handler.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.ShimHybi13Handler.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler.BuildHandshakeWebSocketHttpRequest">
+            <summary>Establecer el shim de Hybi13Handler.BuildHandshake(WebSocketHttpRequest request)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler.CreateResponseKeyString">
+            <summary>Establecer el shim de Hybi13Handler.CreateResponseKey(String requestKey)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler.CreateWebSocketHttpRequestActionOfStringAction">
+            <summary>Establecer el shim de Hybi13Handler.Create(WebSocketHttpRequest request, Action`1&lt;String&gt; onMessage, Action onClose)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler.FrameDataByteArrayFrameType">
+            <summary>Establecer el shim de Hybi13Handler.FrameData(Byte[] payload, FrameType frameType)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler.ProcessFrameFrameTypeByteArrayActionOfStringAction">
+            <summary>Establecer el shim de Hybi13Handler.ProcessFrame(FrameType frameType, Byte[] data, Action`1&lt;String&gt; onMessage, Action onClose)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler.ReceiveDataListOfByteReadStateActionOfFrameTypeByteArray">
+            <summary>Establecer el shim de Hybi13Handler.ReceiveData(List`1&lt;Byte&gt; data, ReadState readState, Action`2&lt;FrameType,Byte[]&gt; processFrame)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler._Createb__2String">
+            <summary>Establecer el shim de Hybi13Handler.&lt;Create&gt;b__2(String s)</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.ShimHybi13Handler._Createb__3Int32">
+            <summary>Establecer el shim de Hybi13Handler.&lt;Create&gt;b__3(Int32 i)</summary>
+        </member>
+        <member name="T:Fleck.Handlers.Fakes.StubComposableHandler">
+            <summary>Tipo stub de Fleck.Handlers.ComposableHandler</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.StubComposableHandler.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Fleck.Handlers.Fakes.StubComposableHandler.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubComposableHandler</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.StubComposableHandler.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.StubComposableHandler.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Fleck.Handlers.Fakes.StubComposableHandler.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+    </members>
+</doc>

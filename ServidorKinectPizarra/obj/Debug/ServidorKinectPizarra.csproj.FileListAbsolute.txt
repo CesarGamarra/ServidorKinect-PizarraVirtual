@@ -1,0 +1,11 @@
+c:\users\farcrat\documents\visual studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\bin\Debug\ServidorKinectPizarra.exe.config
+c:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Debug\ServidorKinectPizarra.Form1.resources
+c:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Debug\ServidorKinectPizarra.Properties.Resources.resources
+c:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Debug\ServidorKinectPizarra.csproj.GenerateResource.Cache
+c:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\bin\Debug\ServidorKinectPizarra.exe
+c:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\bin\Debug\ServidorKinectPizarra.pdb
+c:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Debug\ServidorKinectPizarra.exe
+c:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Debug\ServidorKinectPizarra.pdb
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Debug\ServidorKinectPizarra.Angulo.resources
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Debug\ServidorKinectPizarra.csprojResolveAssemblyReference.cache
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\bin\Debug\Fleck.dll

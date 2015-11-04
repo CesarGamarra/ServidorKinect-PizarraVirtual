@@ -1,0 +1,10 @@
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\bin\Release\ServidorKinectPizarra.exe.config
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\bin\Release\ServidorKinectPizarra.exe
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\bin\Release\ServidorKinectPizarra.pdb
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\bin\Release\Fleck.dll
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Release\ServidorKinectPizarra.Angulo.resources
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Release\ServidorKinectPizarra.Form1.resources
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Release\ServidorKinectPizarra.Properties.Resources.resources
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Release\ServidorKinectPizarra.csproj.GenerateResource.Cache
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Release\ServidorKinectPizarra.exe
+C:\Users\Farcrat\Documents\Visual Studio 2012\Projects\ServidorKinectPizarra\ServidorKinectPizarra\obj\Release\ServidorKinectPizarra.pdb
